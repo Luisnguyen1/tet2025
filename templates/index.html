@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="ritual-form">
+        <h1>Bài Cúng Tết</h1>
+        
+        <form id="ritualForm">
+            <div class="form-group">
+                <label>Chọn loại lễ cúng:</label>
+                <select name="ritual_type" required>
+                    <option value="">-- Chọn loại lễ cúng --</option>
+                    {% for key, value in ritual_types.items() %}
+                    <option value="{{ key }}">{{ value }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group deceased-name-group" style="display: none;">
+                <label>Tên người đã khuất:</label>
+                <input type="text" name="deceased_name">
+            </div>
+
+            <div class="form-group">
+                <label>Họ và tên:</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Ngày sinh:</label>
+                <input type="text" 
+                       id="birthdate" 
+                       name="birthdate" 
+                       placeholder="dd/mm/yyyy"
+                       required>
+            </div>
+
+            <div class="form-group">
+                <label>Địa chỉ:</label>
+                <textarea name="address" required></textarea>
+            </div>
+
+            <button type="submit">Xem bài cúng</button>
+        </form>
+
+        <div id="ritualContent" class="ritual-content" style="display: none;">
+            <h2 id="ritualTitle"></h2>
+            <div id="ritualText"></div>
+            
+            <div id="ritualOfferings" class="ritual-offerings">
+                <h3>Lễ vật cần chuẩn bị:</h3>
+                <ul></ul>
+            </div>
+            
+            <div id="ritualInstructions"></div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

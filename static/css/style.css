@@ -1,0 +1,519 @@
+:root {
+    --primary-color: #d4363d;
+    --secondary-color: #f8c888;
+    --text-color: #333;
+    --background-color: #fff5e6;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Header styles */
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 100;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-left: 50px;
+}
+
+/* Menu styles */
+.menu-toggle {
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 280px;
+    background: white;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    transform: translateX(-280px);
+    transition: transform 0.3s ease;
+    z-index: 99;
+}
+
+.main-menu.active {
+    transform: translateX(0);
+}
+
+.menu-header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items li a {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.menu-items li a:hover {
+    background: var(--background-color);
+    color: var(--primary-color);
+}
+
+.menu-items li a i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Main content */
+.main-content {
+    margin-top: 60px; /* Same as header height */
+    padding: 20px;
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+}
+
+.main-content.menu-active {
+    margin-left: 280px;
+}
+
+/* Container adjustments */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ritual-form {
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b62d33;
+}
+
+.ritual-content {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+
+.share-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.music-control {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-content.menu-active {
+        margin-left: 0;
+    }
+    
+    .main-menu {
+        width: 100%;
+        transform: translateX(-100%);
+    }
+    
+    .main-header h1 {
+        font-size: 1.2rem;
+    }
+} 
+
+.welcome-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.modal-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #b62d33;
+} 
+
+/* Music page styles */
+.music-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.playlist-description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.music-player {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.music-player iframe {
+    border-radius: 8px;
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .music-page {
+        padding: 15px;
+    }
+    
+    .music-player {
+        padding: 15px;
+    }
+    
+    .music-player iframe {
+        height: 400px;
+    }
+} 
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+} 
+
+/* Music control panel */
+.music-controls-panel {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.control-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.control-btn:hover {
+    background-color: #b62d33;
+    transform: translateY(-2px);
+}
+
+.control-btn i {
+    font-size: 1.2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .music-controls-panel {
+        padding: 15px;
+    }
+    
+    .control-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+} 
+
+/* Thêm styles cho music player */
+.music-controls iframe {
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+} 
+
+/* Donate page styles */
+.donate-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.donate-intro {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.payment-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.payment-method {
+    position: relative;
+}
+
+.payment-method input[type="radio"] {
+    display: none;
+}
+
+.payment-method label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: normal;
+}
+
+.payment-method label img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.payment-method input[type="radio"]:checked + label {
+    border-color: var(--primary-color);
+    background-color: #fff5f5;
+}
+
+.payment-info {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+.qr-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qr-section img {
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.bank-details {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.bank-details p {
+    margin: 10px 0;
+}
+
+.copy-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #28a745;
+}
+
+.copy-btn:hover {
+    background-color: #218838;
+} 
+
+/* Profile styles in menu */
+.profile-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid var(--primary-color);
+    padding: 2px;
+}
+
+.profile-info h3 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.profile-title {
+    color: #666;
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.contact-info {
+    padding: 0 20px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.contact-item i {
+    color: var(--primary-color);
+    width: 16px;
+    text-align: center;
+}
+
+.contact-item span {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Adjust menu width for better display */
+.main-menu {
+    width: 280px;
+    transform: translateX(-280px);
+}
+
+.main-content.menu-active {
+    margin-left: 280px;
+}
+
+@media (max-width: 768px) {
+    .profile-info {
+        padding: 15px;
+    }
+    
+    .profile-avatar {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .contact-info {
+        padding: 0 15px 15px;
+    }
+} 

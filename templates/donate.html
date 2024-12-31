@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="donate-section">
+        <h1>Cúng Dường Online</h1>
+        <p class="donate-intro">
+            Nam Mô A Di Đà Phật! Kính mời quý Phật tử hoan hỷ cúng dường.
+        </p>
+
+        <div class="donate-form">
+            <h2>Thông Tin Cúng Dường</h2>
+            <form id="donateForm">
+                <div class="form-group">
+                    <label>Phương thức thanh toán:</label>
+                    <div class="payment-methods">
+                        {% for account in payment_info.bank_accounts %}
+                        <div class="payment-method">
+                            <input type="radio" 
+                                   id="{{ account.bank }}" 
+                                   name="payment_method" 
+                                   value="{{ account.bank }}"
+                                   required>
+                            <label for="{{ account.bank }}">
+                                <img src="{{ account.logo }}" 
+                                     alt="{{ account.bank }}">
+                                {{ account.bank }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Mục đích cúng dường:</label>
+                    <select name="purpose" required>
+                        <option value="">-- Chọn mục đích --</option>
+                        {% for purpose in payment_info.purposes %}
+                        <option value="{{ purpose }}">{{ purpose }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Số tiền cúng dường:</label>
+                    <input type="number" 
+                           name="amount" 
+                           min="1000" 
+                           step="1000" 
+                           placeholder="VNĐ"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label>Họ và tên:</label>
+                    <input type="text" name="donor_name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Lời nguyện:</label>
+                    <textarea name="message" rows="3" placeholder="Ghi lời nguyện của bạn..."></textarea>
+                </div>
+
+                <button type="submit">Xác nhận cúng dường</button>
+            </form>
+        </div>
+
+        <div id="paymentInfo" class="payment-info" style="display: none;">
+            <h2>Thông Tin Chuyển Khoản</h2>
+            <div class="qr-section">
+                <img id="qrCode" src="" alt="QR Code">
+            </div>
+            <div class="bank-details">
+                <p><strong>Ngân hàng:</strong> <span id="bankName"></span></p>
+                <p><strong>Số tài khoản:</strong> <span id="accountNumber"></span></p>
+                <p><strong>Chủ tài khoản:</strong> <span id="accountName"></span></p>
+                <p><strong>Số tiền:</strong> <span id="amount"></span> VNĐ</p>
+                <p><strong>Nội dung CK:</strong> <span id="transferMessage"></span></p>
+            </div>
+            <button onclick="copyTransferInfo()" class="copy-btn">
+                <i class="fas fa-copy"></i> Sao chép thông tin
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %} 

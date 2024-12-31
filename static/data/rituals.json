@@ -1,0 +1,237 @@
+{
+    "grave_ritual": {
+        "title": "Nghi thức cúng lễ tạ mộ cuối năm",
+        "content": "Nam mô A Di Đà Phật! (3 lần)\n\nKính lạy:\nNgười xưa có câu 'Bất kiến kỳ thân, đản kiến kỳ mộ' (không thấy được người, chỉ thấy phần mộ). Vì vậy, việc tảo mộ, thăm viếng mộ phần tổ tiên vào dịp cuối năm là một phong tục tốt đẹp của dân tộc ta.\n\nHôm nay ngày ... tháng ... năm ...\nTại mộ phần của {deceased_name}\n\nChúng con là: {name}\nNgụ tại: {address}\n\nKính dâng hương hoa, phẩm vật cúng dường, thành tâm bái lạy, kính mong tổ tiên chứng giám, phù hộ độ trì cho con cháu được bình an, mạnh khỏe, công việc thuận lợi, gia đạo bình an.\n\nNam mô A Di Đà Phật! (3 lần)",
+        "instructions": [
+            "Dọn dẹp, quét tước mộ phần sạch sẽ",
+            "Đặt hương án trước mộ",
+            "Bày biện lễ vật",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Hóa vàng mã",
+            "Thu dọn sạch sẽ khi xong"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Trái cây",
+            "Vàng mã",
+            "Rượu",
+            "Thức ăn mặn (tùy)",
+            "Nước"
+        ]
+    },
+    "kitchen_god": {
+        "title": "Bài cúng ông Công ông Táo",
+        "content": "Nam mô a di Đà Phật! (3 lần)\n\nKính lạy:\n- Đông trù Tư mệnh Táo phủ Thần quân\n- Đông trù Tư mệnh Táo phủ Vương quan\n- Đông trù Tư mệnh Táo phủ Vương mẫu\n\nHôm nay là ngày 23 tháng Chạp năm ...\n\nTín chủ con là: {name}\nNgụ tại: {address}\n\nThành tâm sửa biện hương hoa phẩm vật, xiêm hài áo mũ, nghi lễ cung trần, dâng lên trước án. Phụng thỉnh thần linh lâm hiện chứng giám.\n\nTrước án kính lạy ba vị Táo quân là Thần Đông trù chi thần, cai quản bếp núc trong nhà con. Nay nhân dịp cuối năm, sắp đến Tết Nguyên đán, tín chủ con thành tâm sắm sanh lễ vật, dâng lên tam vị Táo quân, đê đầu bái thỉnh.\n\nNguyện xin tam vị Táo quân thương xót tín chủ, phù hộ độ trì cho gia đạo bình an, người người được khỏe mạnh, làm ăn phát đạt.\n\nNam mô a di Đà Phật! (3 lần)",
+        "instructions": [
+            "Bày mâm cúng trước bàn thờ Thần Táo",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng",
+            "Thả cá chép (nếu có)"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Mũ, áo, hài (bằng giấy)",
+            "Cá chép (có thể thật hoặc giấy)",
+            "Gạo, muối",
+            "Trà, rượu",
+            "Hoa quả",
+            "Vàng mã"
+        ]
+    },
+    "new_year_eve_outdoor": {
+        "title": "Văn khấn giao thừa ngoài trời",
+        "content": "Nam mô A Di Đà Phật (3 lần)\n\nKính lạy:\n\n- Con kính lạy chín phương trời, mười phương chư Phật, chư Phật mười phương.\n\n- Con kính lạy Đức Đương Lai Hạ Sinh Di Lặc Tôn Phật.\n\n- Con kính lạy Đức Bồ tát Quán Thế Âm cứu nạn cứu khổ chúng sinh.\n\n- Con kính lạy Hoàng thiên, Hậu thổ, chư vị tôn thần.\n\n- Con kính lạy ngài cựu niên Hành khiển, cựu Hành binh chi thần, cựu Phán quan.\n\n- Con kính lạy ngài đương niên Hành khiển, đương niên Hành binh chi thần, đương niên Phán quan.\n\n- Con kính lạy các ngài Ngũ phương, Ngũ hổ, Long mạch, Táo quân, chư vị tôn thần.\n\nNay là phút giao thừa năm Quý Mão với năm Giáp Thìn.\n\nChúng con là: {name}, sinh năm: {birthdate}, cư ngụ tại: {address}\n\nNhân phút thiêng liêng giao thừa vừa tới, năm cũ qua đi, đón mừng năm mới, tam dương khang thái, vạn tượng canh tân.\n\nNay ngài Thái Tuế tôn thần trên vâng lệnh Ngọc Hoàng Thượng đế, giám sát vạn dân, dưới bảo hộ sinh linh tảo trừ yêu nghiệt. Quan cũ về triều cửa khuyết, lưu phúc, lưu ân. Quan mới xuống thay, thể đức hiếu sinh, ban tài tiếp lộc.\n\nNhân buổi tân xuân, tín chủ chúng con thành tâm, sửa biện hương hoa phẩm vật, nghi lễ cung trần, dâng lên trước án, cúng dàng Phật, Thánh, dâng hiến tôn thần, đốt nén tâm hương, dốc lòng bái thỉnh.\n\nChúng con kính mời: Ngài Cựu niên đương cai Thái tuế, ngài Tân niên đương cai Thái tuế chí đức tôn thần, ngài Bản cảnh Thành hoàng chư vị đại vương, ngài bản xứ thần linh Thổ địa, ngài Hỷ thần, Phúc đức chính thần, các ngài Ngũ phương, Ngũ thổ, Long mạch, Tài thần, chư vị bản gia Táo quân, và chư vị Thần linh cai quản ở trong xứ này, cúi xin giáng lâm trước án thụ hưởng lễ vật.\n\nNguyện cho tín chủ, minh niên kháng thái, vạn sự tốt lành, bốn mùa tám tiết được chữ bình an, gia đạo hưng long thịnh vượng, bách sự hanh thông, ngày ngày được hưởng ơn trời, Phật, chư vị tôn thần.\n\nChúng con kính cẩn tiến dâng lễ vật, thành tâm cầu nguyện. Cúi xin chứng giám.\n\nNam mô A Di Đà Phật (3 lần)",
+        "instructions": [
+            "Chọn vị trí thoáng đãng, sạch sẽ để đặt bàn cúng",
+            "Bày biện lễ vật đầy đủ",
+            "Thắp 5 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Rượu",
+            "Trà",
+            "Vàng mã",
+            "Mứt, kẹo",
+            "Nước"
+        ]
+    },
+    "new_year_eve_indoor": {
+        "title": "Văn khấn giao thừa trong nhà",
+        "content": "Nam mô A Di Đà Phật (3 lần)\n\n- Nam mô Đương Lai Hạ Sinh Di Lặc Tôn Phật.\n\n- Nam mô Đông Phương Giáo Chủ Dược Sư Lưu Ly Quang Vương Phật.\n\n- Nam mô Đức Bồ tát Quán Thế Âm cứu nạn cứu khổ chúng sinh.\n\n- Con kính lạy chín phương trời, mười phương chư Phật, chư Phật mười phương.\n\n- Con kính lạy Hoàng thiên, Hậu thổ, Long mạch, Táo quân, chư vị tôn thần.\n\n- Các cụ tổ tiên nội ngoại chư vị tiên linh.\n\nNay phút giao thừa năm Quý Mão với năm Giáp Thìn.\n\nChúng con là: {name}, sinh năm: {birthdate}, ngụ tại: {address}\n\nPhút giao thừa vừa điểm, nay theo vận luật, tống cựu nghênh tân, giờ Tý đầu xuân, đón mừng Nguyên đán, tín chủ chúng con thành tâm tu biện hương hoa phẩm vật, nghi lễ cung trần, dâng lên trước án, cúng dàng Phật- Thánh, dâng hiến Tôn thần, tiến cúng Tổ tiên, đốt nén tâm hương, dốc lòng bái thỉnh.\n\nChúng con kính mời: Ngài Bản cảnh Thành hoàng chư vị Đại vương, ngài Bản xứ Thần linh Thổ địa, Hỷ thần, Phúc đức chính thần, ngài Ngũ phương, Ngũ thổ, Long mạch, Tài thần, các ngài bản gia Táo phủ thần quân và chư vị Thần linh cai quản ở trong xứ này. Cúi xin giáng lâm trước án, thụ hưởng lễ vật.\n\nCon lại kính mời các cụ tiên linh, cao tằng tổ khảo, cao tằng tổ tỷ, bá thúc đệ huynh, cô di tỷ muội, nội ngoại gia tộc, chư vị hương linh, cúi xin giáng phó linh sàng thụ hưởng lễ vật.\n\nTín chủ lại kính mời các vị vong linh tiền chủ, hậu chủ, y thảo phụ mộc ở trong đất này, nhân tiết giao thừa, giáng lâm trước án, chiêm ngưỡng tân xuân, thụ hưởng lễ vật.\n\nNguyện cho tín chủ, minh niên khang thái, vạn sự cát tường, bốn mùa được bình an, gia đạo hưng long, thịnh vượng.\n\nTâm thành cầu nguyện, lễ bạc tiến dâng, cúi xin chứng giám.\n\nNam mô A Di Đà Phật (3 lần)",
+        "instructions": [
+            "Dọn dẹp nhà cửa sạch sẽ",
+            "Bày mâm cúng trước bàn thờ",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Xôi, gà luộc",
+            "Rượu",
+            "Trà",
+            "Mứt, kẹo",
+            "Vàng mã"
+        ]
+    },
+    "leaving_home": {
+        "title": "Bài cúng khi không ăn Tết tại nhà",
+        "content": "Nam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con kính bạch chư Phật, chư Bồ Tát, chư Thánh Hiền Tăng chứng minh và gia hộ cho chúng con.\n\nĐệ tử con tên là: {name}\nNgụ tại: {address}\n\nGia đình xin cáo bạch, đến ngày ... tháng ... năm ... gia đình xin phép (về quê ăn Tết, đi du lịch..., lên chùa làm công quả tu tập), nên Tết gia đình không cúng lễ tại nhà được, vì vậy hôm nay gia đình xin thành tâm sắm sửa vật thực lòng thành để dâng cúng.\n\nChúng con xin thỉnh mời chư Thiên, chư Thần Linh về đây ủng hộ cho khóa lễ.\n\nChúng con xin nương oai lực Tam Bảo, chúng con xin thỉnh mời: hương linh gia tiên họ...; hương linh trên đất tại...; hương linh hữu duyên với toàn thể gia đình.\n\nGiờ này, chúng con xin tác lễ cúng dường vật thực thanh tịnh.\n\nThượng: Xin dâng lên cúng dường thập phương chư Phật chứng minh.\nTrung: Xin dâng lên cúng dường chư Bồ Tát, chư Thánh Hiền Tăng chứng minh.\nHạ: Xin dâng cúng đến cho chư Thiên, chư Thần Linh.\nSau: Xin hiến cúng cho tất cả các chúng hương linh mà chúng con đã thỉnh mời.\n\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con xin hồi hướng công đức trong khóa lễ cúng này, cùng công đức khác mà gia đình đã phát tâm tạo lập để hồi hướng cho chư vị trong cõi tâm linh mà chúng con đã bạch thỉnh, nguyện cho tất cả chư vị được tăng phước, nương tựa Tam Bảo tu hành, sớm giác ngộ giải thoát.\n\nNam mô Chứng Minh Sư Bồ Tát Ma Ha Tát!\nNam mô Thường Gia Hộ Bồ Tát Ma Ha Tát!\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!",
+        "instructions": [
+            "Dọn dẹp nhà cửa sạch sẽ",
+            "Bày mâm cúng trước bàn thờ",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Tụng kinh (nếu có)",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Xôi, gà luộc",
+            "Rượu",
+            "Trà",
+            "Mứt, kẹo",
+            "Vàng mã"
+        ]
+    },
+    "new_year_eve_business": {
+        "title": "Bài cúng giao thừa tại nhà, cơ quan, cửa hàng",
+        "content": "Nam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con kính bạch chư Phật, chư Bồ Tát, chư Thánh Hiền Tăng chứng minh và gia hộ cho chúng con.\n\nĐệ tử con tên là: {name}\nNgụ tại: {address}\n\nGiờ này, thời khắc giao thừa năm Quý Mão với năm Giáp Thìn sắp tới, {business_type} xin thành tâm sắm sửa vật thực lòng thành để dâng cúng.\n\nChúng con xin thỉnh mời chư Thiên, chư Thần Linh về đây ủng hộ cho khóa lễ.\n\nChúng con xin nương oai lực Tam Bảo, chúng con xin thỉnh mời các hương linh có duyên tại các phần đất thuộc sở hữu, cùng các hương linh hữu duyên trên mọi sự mọi việc của {business_name}.\n\nGiờ này, chúng con xin tác lễ cúng dường vật thực thanh tịnh.\n\nThượng: Xin dâng lên cúng dường thập phương chư Phật chứng minh.\nTrung: Xin dâng lên cúng dường chư Bồ Tát, chư Thánh Hiền Tăng chứng minh.\nHạ: Xin dâng cúng đến cho chư Thiên, chư Thần Linh.\nSau: Xin hiến cúng cho tất cả các chúng hương linh mà chúng con đã thỉnh mời.\n\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con xin hồi hướng công đức trong khóa lễ cúng này, cùng công đức khác mà {business_type} đã phát tâm tạo lập để hồi hướng cho chư vị trong cõi tâm linh mà chúng con đã bạch thỉnh, nguyện cho tất cả chư vị được tăng phước, nương tựa Tam Bảo tu hành, sớm giác ngộ giải thoát.\n\nVà chúng con lại xin hồi hướng cầu an cho {business_type} được phát triển thịnh vượng, mọi sự hanh thông.\n\nNam mô Chứng Minh Sư Bồ Tát Ma Ha Tát!\nNam mô Thường Gia Hộ Bồ Tát Ma Ha Tát!\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!",
+        "instructions": [
+            "Dọn dẹp không gian sạch sẽ",
+            "Bày mâm cúng trang nghiêm",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Tụng kinh (nếu có)",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Xôi, gà luộc",
+            "Rượu",
+            "Trà",
+            "Mứt, kẹo",
+            "Vàng mã"
+        ]
+    },
+    "new_year_days": {
+        "title": "Bài cúng mùng 1, 2, 3 Tết",
+        "content": "Nam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con kính bạch chư Phật, chư Bồ Tát, chư Thánh Hiền Tăng chứng minh và gia hộ cho chúng con.\n\nĐệ tử con tên là: {name}\nNgụ tại: {address}\n\nHôm nay, nhân ngày {lunar_day} tháng Giêng của năm mới {business_type} xin tác lễ cúng Tết.\n\n{business_type} xin thành tâm sắm sửa vật thực lòng thành để dâng cúng.\n\nChúng con xin thỉnh mời chư Thiên, chư Thần Linh về đây ủng hộ cho khóa lễ.\n\nChúng con xin nương oai lực Tam Bảo, chúng con xin thỉnh mời các hương linh có duyên tại các phần đất thuộc sở hữu, cùng các hương linh hữu duyên trên mọi sự mọi việc của {business_name}.\n\nGiờ này, chúng con xin tác lễ cúng dường vật thực thanh tịnh.\n\nThượng: Xin dâng lên cúng dường thập phương chư Phật chứng minh.\nTrung: Xin dâng lên cúng dường chư Bồ Tát, chư Thánh Hiền Tăng chứng minh.\nHạ: Xin dâng cúng đến cho chư Thiên, chư Thần Linh.\nSau: Xin hiến cúng cho tất cả các chúng hương linh mà chúng con đã thỉnh mời.\n\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con xin hồi hướng công đức trong khóa lễ cúng này, cùng công đức khác mà {business_type} đã phát tâm tạo lập để hồi hướng cho chư vị trong cõi tâm linh mà chúng con đã bạch thỉnh, nguyện cho tất cả chư vị được tăng phước, nương tựa Tam Bảo tu hành, sớm giác ngộ giải thoát.\n\nVà chúng con lại xin hồi hướng cầu an cho {business_type} được phát triển thịnh vượng, mọi sự hanh thông.\n\nNam mô Chứng Minh Sư Bồ Tát Ma Ha Tát!\nNam mô Thường Gia Hộ Bồ Tát Ma Ha Tát!\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!",
+        "instructions": [
+            "Dọn dẹp không gian sạch sẽ",
+            "Bày mâm cúng trang nghiêm",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Tụng kinh (nếu có)",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Xôi, gà luộc",
+            "Rượu",
+            "Trà",
+            "Mứt, kẹo",
+            "Vàng mã"
+        ]
+    },
+    "end_new_year": {
+        "title": "Bài cúng mãn Tết (cúng hóa vàng)",
+        "content": "Nam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con kính bạch chư Phật, chư Bồ Tát, chư Thánh Hiền Tăng chứng minh và gia hộ cho chúng con.\n\nĐệ tử con tên là: {name}\nNgụ tại: {address}\n\nHôm nay, nhân ngày {lunar_day} tháng Giêng của năm mới, {business_type} xin tác lễ cúng mãn Tết.\n\n{business_type} xin thành tâm sắm sửa vật thực lòng thành để dâng cúng.\n\nChúng con xin thỉnh mời chư Thiên, chư Thần Linh về đây ủng hộ cho khóa lễ.\n\nChúng con xin nương oai lực Tam Bảo, chúng con xin thỉnh mời các hương linh có duyên tại các phần đất thuộc sở hữu, cùng các hương linh hữu duyên trên mọi sự mọi việc của {business_name}.\n\nGiờ này, chúng con xin tác lễ cúng dường vật thực thanh tịnh.\n\nThượng: Xin dâng lên cúng dường thập phương chư Phật chứng minh.\nTrung: Xin dâng lên cúng dường chư Bồ Tát, chư Thánh Hiền Tăng chứng minh.\nHạ: Xin dâng cúng đến cho chư Thiên, chư Thần Linh.\nSau: Xin hiến cúng cho tất cả các chúng hương linh mà chúng con đã thỉnh mời.\n\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con xin hồi hướng công đức trong khóa lễ cúng này, cùng công đức khác mà {business_type} đã phát tâm tạo lập để hồi hướng cho chư vị trong cõi tâm linh mà chúng con đã bạch thỉnh, nguyện cho tất cả chư vị được tăng phước, nương tựa Tam Bảo tu hành, sớm giác ngộ giải thoát.\n\nVà chúng con lại xin hồi hướng cầu an cho {business_type} được phát triển thịnh vượng, mọi sự hanh thông.\n\nNam mô Chứng Minh Sư Bồ Tát Ma Ha Tát!\nNam mô Thường Gia Hộ Bồ Tát Ma Ha Tát!\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!",
+        "instructions": [
+            "Dọn dẹp không gian sạch sẽ",
+            "Bày mâm cúng trang nghiêm",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Tụng kinh (nếu có)",
+            "Hóa vàng mã",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Xôi, gà luộc",
+            "Rượu",
+            "Trà",
+            "Mứt, kẹo",
+            "Vàng mã"
+        ]
+    },
+    "first_full_moon": {
+        "title": "Bài cúng rằm tháng Giêng (Tết Nguyên tiêu)",
+        "content": "Nam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con kính bạch chư Phật, chư Bồ Tát, chư Thánh Hiền Tăng chứng minh và gia hộ cho chúng con.\n\nĐệ tử con tên là: {name}\nNgụ tại: {address}\n\nHôm nay là ngày rằm tháng Giêng, {business_type} xin tác lễ cúng rằm tháng Giêng (Tết Nguyên tiêu).\n\n{business_type} xin thành tâm sắm sửa vật thực lòng thành để dâng cúng.\n\nChúng con xin thỉnh mời chư Thiên, chư Thần Linh có duyên nơi đất tại {business_name} về đây ủng hộ cho khóa lễ.\n\nChúng con xin nương oai lực Tam Bảo, chúng con xin thỉnh mời các hương linh có duyên tại các phần đất thuộc sở hữu của {business_name}, hương linh quỷ thần liên quan tới các công việc hiện tại và sự phát triển của {business_name}.\n\nGiờ này, chúng con xin tác lễ cúng dường vật thực thanh tịnh.\n\nThượng: Xin dâng lên cúng dường thập phương chư Phật chứng minh.\nTrung: Xin dâng lên cúng dường chư Bồ Tát, chư Thánh Hiền Tăng chứng minh.\nHạ: Xin dâng cúng đến cho chư Thiên, chư Thần Linh.\nSau: Xin hiến cúng cho tất cả các chúng hương linh mà chúng con đã thỉnh mời.\n\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con xin hồi hướng công đức trong khóa lễ cúng này, cùng công đức khác mà {business_type} đã phát tâm tạo lập để hồi hướng cho chư vị trong cõi tâm linh mà chúng con đã bạch thỉnh, nguyện cho tất cả chư vị được tăng phước, nương tựa Tam Bảo tu hành, sớm giác ngộ giải thoát.\n\nVà chúng con lại xin hồi hướng cầu an cho {business_type} được phát triển thịnh vượng, mọi sự hanh thông.\n\nNam mô Chứng Minh Sư Bồ Tát Ma Ha Tát!\nNam mô Thường Gia Hộ Bồ Tát Ma Ha Tát!\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!",
+        "instructions": [
+            "Dọn dẹp không gian sạch sẽ",
+            "Bày mâm cúng trang nghiêm",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Tụng kinh (nếu có)",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Xôi, gà luộc",
+            "Rượu",
+            "Trà",
+            "Mứt, kẹo",
+            "Vàng mã"
+        ]
+    },
+    "new_year_opening": {
+        "title": "Bài cúng khai xuân đầu năm",
+        "content": "Nam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con kính bạch chư Phật, chư Bồ Tát, chư Thánh Hiền Tăng chứng minh và gia hộ cho chúng con.\n\nĐệ tử con tên là: {name}\nNgụ tại: {address}\n\nHôm nay, nhân ngày {lunar_day} tháng Giêng năm mới, {business_type} xin tác lễ khai xuân, cầu mong một năm công việc của {business_name} được hanh thông phát triển.\n\n{business_type} xin thành tâm sắm sửa vật thực lòng thành để dâng cúng.\n\nChúng con xin thỉnh mời chư Thiên, chư Thần Linh về đây ủng hộ cho khóa lễ.\n\nChúng con xin nương oai lực Tam Bảo, chúng con xin thỉnh mời các hương linh có duyên tại các phần đất thuộc sở hữu, cùng các hương linh hữu duyên trên mọi sự mọi việc của {business_name}.\n\nGiờ này, chúng con xin tác lễ cúng dường vật thực thanh tịnh.\n\nThượng: Xin dâng lên cúng dường thập phương chư Phật chứng minh.\nTrung: Xin dâng lên cúng dường chư Bồ Tát, chư Thánh Hiền Tăng chứng minh.\nHạ: Xin dâng cúng đến cho chư Thiên, chư Thần Linh.\nSau: Xin hiến cúng cho tất cả các chúng hương linh mà chúng con đã thỉnh mời.\n\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!\n\nChúng con xin hồi hướng công đức trong khóa lễ cúng này, cùng công đức khác mà {business_type} đã phát tâm tạo lập để hồi hướng cho chư vị trong cõi tâm linh mà chúng con đã bạch thỉnh, nguyện cho tất cả chư vị được tăng phước, nương tựa Tam Bảo tu hành, sớm giác ngộ giải thoát.\n\nVà chúng con lại xin hồi hướng cầu an cho {business_type} được phát triển thịnh vượng, mọi sự hanh thông.\n\nNam mô Chứng Minh Sư Bồ Tát Ma Ha Tát!\nNam mô Thường Gia Hộ Bồ Tát Ma Ha Tát!\nNam mô Phật Bổn Sư Thích Ca Mâu Ni!",
+        "instructions": [
+            "Dọn dẹp không gian sạch sẽ",
+            "Bày mâm cúng trang nghiêm",
+            "Thắp 3 nén nhang",
+            "Đọc văn khấn 3 lần",
+            "Vái 3 lạy sau mỗi lần đọc",
+            "Tụng kinh (nếu có)",
+            "Đợi nhang cháy hết mới thu dọn mâm cúng"
+        ],
+        "offerings": [
+            "Hương, nến",
+            "Hoa tươi",
+            "Mâm ngũ quả",
+            "Bánh chưng, bánh tét",
+            "Xôi, gà luộc",
+            "Rượu",
+            "Trà",
+            "Mứt, kẹo",
+            "Vàng mã"
+        ]
+    }
+} 
